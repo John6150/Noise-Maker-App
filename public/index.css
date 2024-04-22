@@ -1,0 +1,141 @@
+/* <style> */
+    * {
+        padding: none;
+        border: none;
+    }
+
+    body {
+        /* border: none; */
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.637), rgba(89, 0, 0, 0.507)), url('/bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .main-container {
+        width: 70vw;
+        height: 500px;
+        padding: 10px 10px 10px 10px;
+        border-left: 3px solid rgb(0, 18, 60);
+        background-color: rgba(255, 255, 255, 0.609);
+        backdrop-filter: blur(6px);
+        /* border-top-right-radius: 30px; */
+        /* border-bottom-right-radius: 30px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 20px; */
+
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 800;
+            color: rgb(0, 52, 87);
+            font-size: 40px;
+        }
+
+    }
+
+    .sub-con {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: red; */
+        /* border: 2px solid green; */
+    }
+
+    .illus {
+        width: 40%;
+        height: 90%;
+        /* background-color: green; */
+        background-image: url("/illus.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .list {
+        /* width: 55%; */
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        .list_table{
+            height: 500px;
+            overflow: scroll;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        /* background-color: rgb(199, 199, 199); */
+        button {
+            width: 200px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            height: 30px;
+            border: none;
+            outline: none;
+        }
+
+    }
+
+    table {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* background-color: green; */
+        /* height: 500px; */
+        th {
+            padding: 2px 5px 2px 5px;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    th:nth-child(odd) {
+        background-color: bisque;
+    }
+
+    th:nth-child(even) {
+        background-color: rgb(218, 218, 218);
+    }
+
+    #opt {
+        width: 30px;
+    }
+
+    form #opt:nth-child(1) {
+        background-color: rgb(121, 0, 0);
+
+    }
+
+    form:nth-child(2) #opt {
+        background-color: rgb(0, 105, 21);
+    }
+
+    form:nth-child(3) #opt {
+        background-color: rgb(254, 169, 0);
+    }
+
+    #btn {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+/* </style> */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <div class="main-container">
+        <h1>Noise Maker App</h1>
+        <div class="sub-con">
+            <div class="illus"></div>
+            <div class="list">
+                <div class="list_table">
+                    {{!-- <h1>{{message}}</h1> --}}
+                    <table>
+                        <thead>
+                            <th>S/N</th>
+                            <th>Name</th>
+                            <th>Degree</th>
+                            <th>Actions</th>
+                        </thead>
+                        <tbody id="tbody"></tbody>
+                    </table>
+                </div>
+                {{!-- <form action="/addNoiseMaker" method="get"> --}}
+                    <a href="/admin/addNoiseMaker"><button type="submit">Add Criminal</button></a>
+                {{!-- </form> --}}
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="frontend.js"></script>
